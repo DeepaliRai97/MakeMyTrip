@@ -1,4 +1,4 @@
-package com.makemytripapp;
+package code.makemytripapp;
 
 import com.reactnativenavigation.NavigationActivity;
 

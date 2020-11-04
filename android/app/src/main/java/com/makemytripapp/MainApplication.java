@@ -1,4 +1,4 @@
-package com.makemytripapp;
+package code.makemytripapp;
 
 import android.app.Application;
 import android.content.Context;

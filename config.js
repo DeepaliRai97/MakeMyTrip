@@ -1,11 +1,11 @@
 
-export const firebaseConfig = {
-    apiKey: "AIzaSyDPDoSleI9TyDYldw2yfy4PAjBSCZ1be7w",
-    authDomain: "makemytrip-a6d33.firebaseapp.com",
-    databaseURL: "https://makemytrip-a6d33.firebaseio.com",
-    projectId: "makemytrip-a6d33",
-    storageBucket: "makemytrip-a6d33.appspot.com",
-    messagingSenderId: "452510361770",
-    appId: "1:452510361770:web:5dc46a27776802082e88d3",
-    measurementId: "G-WFG2J6H1DR"
+  export const firebaseConfig = {
+    apiKey: "AIzaSyCm7cK9wkJjBAtv-t_DrtOFw-7xuT5FtPg",
+    authDomain: "makemytrip-16563.firebaseapp.com",
+    databaseURL: "https://makemytrip-16563.firebaseio.com",
+    projectId: "makemytrip-16563",
+    storageBucket: "makemytrip-16563.appspot.com",
+    messagingSenderId: "666272610643",
+    appId: "1:666272610643:web:3d5d3817639bba46cd89a6",
+    measurementId: "G-5CHX8PP65E"
   };
