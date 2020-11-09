@@ -7,11 +7,11 @@ import AntDesign from 'react-native-vector-icons/AntDesign';
 import stringsoflanguages from './screenStrings'; 
 import ImagePicker from "react-native-image-picker";
 import * as firebase from 'firebase';
-import {LocalizationContext} from '../context/LocalizationContext'
+//import {LocalizationContext} from '../context/LocalizationContext'
 
 
 const ProfileScreen = (props)=>{
-  const {translations} = useContext(LocalizationContext);
+ // const {translations} = useContext(LocalizationContext);
 
    const signOutUser = () => {
     Navigation.push(props.parentComponentId, {

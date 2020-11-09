@@ -1,5 +1,5 @@
 // counter.store.js
-import React from 'react';
+/*import React from 'react';
 import { observable, action } from 'mobx';
 
 class CounterStore {
@@ -20,3 +20,4 @@ class CounterStore {
 const counterStore = new CounterStore();
 // Create a React Context with the counter store instance.
 export const CounterStoreContext = React.createContext(counterStore);
+*/

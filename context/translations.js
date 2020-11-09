@@ -1,4 +1,4 @@
-import LocalizedStrings from 'react-native-localization';
+/*import LocalizedStrings from 'react-native-localization';
 
 export const DEFAULT_LANGUAGE = 'en';
 
@@ -26,3 +26,4 @@ const translations = {
 };
 
 export default new LocalizedStrings(translations);
+*/

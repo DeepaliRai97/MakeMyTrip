@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { StyleSheet, View, Image, Text, TextInput, TouchableOpacity, Button,Alert,ImageBackground } from 'react-native';
 const { Navigation } = require('react-native-navigation');
 import * as firebase from 'firebase';
-//import bottom from '../screens/bottom';
+import {bottom} from '../screens/Bottom';
 const SignIn = (props) => {
     const [useremail, setUserEmail] = useState('');
     const [userpassword, setUserPassword] = useState('');
@@ -12,7 +12,7 @@ const SignIn = (props) => {
           Navigation.setRoot( bottom );
         }).catch(error=>{Alert.alert(error.message)})
      }
-     const bottom = {
+     /*const bottom = {
       root: {
         bottomTabs: {
           children: [
@@ -86,7 +86,7 @@ const SignIn = (props) => {
           ]
         }
       }
-    };
+    };*/
 return (
     <View style={styles.container}>
     <View style={styles.header}>

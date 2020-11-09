@@ -1,30 +1,16 @@
 import React, {Component, useState} from 'react';  
 import {Platform, StyleSheet, Text, TouchableOpacity, View} from 'react-native';  
 import { Navigation } from 'react-native-navigation';
- import stringsoflanguages from './screenStrings'; 
- import { observable, action } from 'mobx';
+import stringsoflanguages from '../screens/screenStrings'; 
+import { observable, action } from 'mobx';
 
-//export const JSON_Clicked_Item = setText(data);
  
 class SettingScreen  {  
   @observable  JSON_Clicked_Item=data;
-   @action.bound
-   setText(data)  {
+   
+  @action setText = (data) => {
        stringsoflanguages.setLanguage(data);
-       Navigation.push(props.componentId, {
-        component: {
-          name: 'Home',
-          passProps: {
-            JSON_Clicked_Item:data,
-         }
-        }
-        
-      });
-     
-      
-     // Navigation.setDefaultOptions()
-   }
-  
+  }
 }
 
 
